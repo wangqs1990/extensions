@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2, 
+    "name": "豆瓣小组聚合", 
+    "version": "0.0.1", 
+    "description": "豆瓣小组聚合",
+    "options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "alarms",
+        "notifications"
+    ],
+    "background": {
+      "scripts": ["app/js/fetch.js"],
+      "persistent": false
+    }, 
+    "browser_action": { 
+      "default_icon": {
+          "19": "icon.gif"
+        }, 
+      "default_popup": "index.html" 
+   }
+}

@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2, 
+    "name": "qrCode", 
+    "version": "0.0.1", 
+    "description": "获取当前页面验证码",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": { 
+      "default_icon": "icon.gif",
+      "default_popup": "index.html" 
+   }
+}
